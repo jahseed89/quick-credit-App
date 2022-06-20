@@ -1,9 +1,11 @@
 import './App.css';
-import Dashboard from './pages/dashboard/dashboard';
+// import Dashboard from './pages/dashboard/dashboard';
+import Login from './pages/login/login';
 
 function App() {
   return (
-    <Dashboard  />
+    // <Dashboard  />
+    <Login />
   );
 }
 
