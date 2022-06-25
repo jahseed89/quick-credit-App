@@ -1,0 +1,11 @@
+.nav__btn{
+    padding: .5rem 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+    &:hover{
+        color: #fff;
+        background-color: transparent;
+    }
+}

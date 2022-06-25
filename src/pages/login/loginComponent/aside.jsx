@@ -1,8 +1,10 @@
-import React, { useState } from "react";
-import RegisterForm from "../forms/registerForm";
-import "./login.scss";
+import "./aside.scss";
+import { useState } from "react";
 
-const Login = ()=>{
+
+
+const Aside = ()=>{
+
     const [counter, setCounter] = useState(0)
 
     const increement = ()=>{
@@ -13,8 +15,9 @@ const Login = ()=>{
     }
 
     const date = new Date()
+
     return (
-        <div className="login__container">
+        <div>
             <div className="aside">
                 <h3>Quick Credit</h3>
                 <div className="aside__avata">images</div>
@@ -32,12 +35,7 @@ const Login = ()=>{
                     <p>&copy;2022 Quick Credit Inc. All Rights Reserved.</p>
                 </div>
             </div>
-            <div className="loginForm__container">
-                <h3 className="header">Sign in to <span>Request</span> a Loan</h3>
-                <RegisterForm lable = "Enter Your Email" password= "Password" forgotpass= "Forget Passord" />
-            </div>
         </div>
     )
-} 
-
-export default Login;
+}
+export default Aside;

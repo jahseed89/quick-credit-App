@@ -1,0 +1,62 @@
+.form__container{
+    margin-top: 8rem;
+
+    .header{
+        margin: 2rem auto;
+    }
+    .passwardInput__container{
+        margin: 2rem 0 .5rem 0;
+        position: relative;
+
+        .eye__icon{
+            position: absolute;
+            top: 55%;
+            right: 26%;
+            cursor: pointer;
+        }
+    }
+    .forgotPass{
+        margin-top: 0;
+        width: fit-content;
+        margin-left: 63%;
+        color: #0098DA;
+    }
+
+    form{
+
+        label{
+            display: flex;
+            padding-left: 25%;
+            margin-bottom: .5rem;
+
+        }
+        input{
+            border: 1px solid #e8e8e8;
+            width: 50%;
+            height: 40px;
+            border-radius: .3rem;
+            outline: none;
+            &:focus{
+                padding: .5rem;
+                border: 1px solid #0098DA;
+            }
+
+            &::placeholder{
+                padding: 0 .5rem;
+                font-size: .8rem;
+                opacity: .5;
+            }
+        }
+        .accTxt__container{
+            display: flex;
+            width: fit-content;
+            margin: 0 auto;
+
+            .register__link{
+                color: #0098DA;
+                margin-left: 5px;
+            }
+        }
+        
+    }
+}

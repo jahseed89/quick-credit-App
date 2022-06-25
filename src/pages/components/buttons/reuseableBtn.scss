@@ -1,0 +1,15 @@
+@use "../../components/variables.scss" as *;
+
+.reuseable__btn{
+    padding: 1rem 2rem;
+    background-color: $base_color;
+    color: #fff;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+    &:hover{
+        background: transparent;
+        border: 1px solid $primary_color;
+        color: $primary_color;
+    }
+}

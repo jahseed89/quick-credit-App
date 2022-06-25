@@ -1,0 +1,42 @@
+@use "../components/variables.scss" as *;
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.main__section__container{
+    display: flex;
+    height: 100%;
+    
+    .inspiring{
+        width: 50%;
+        padding: 1.5rem;
+        p{
+            color: $txt_color;
+            font-size: $txt_font;
+        }
+    }
+    .twoBg__img{
+        width: 50%;
+        background-color: $base_color;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+    }
+}
+.whyUs__container{
+    width: 55%;
+    margin: 0 auto 3rem auto;
+    text-align: center;
+
+    p{
+        color: $txt_color2;
+        line-height: $txt_lh;
+    }
+}
+
+.cards__section{
+    width: 70%;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: space-between;
+}

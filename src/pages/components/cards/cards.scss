@@ -1,0 +1,15 @@
+@use "../variables.scss" as *;
+
+.card__container{
+    text-align: center;
+
+    h3{
+        color: $primary_color;
+        margin: 1rem 0;
+    }
+    p{
+        color: $txt_color;
+        line-height: $txt_lh;
+        font-size: $txt_font;
+    }
+}
