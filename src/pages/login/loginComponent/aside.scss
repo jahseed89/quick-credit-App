@@ -1,0 +1,20 @@
+.aside{
+    width: 30%;
+    padding: 1rem;
+    // background-color: #0c1825;
+    background-color: rgba(7, 19, 51, 1);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+
+    .text__abtUs{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+}
